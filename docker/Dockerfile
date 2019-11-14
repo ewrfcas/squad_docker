@@ -17,8 +17,8 @@ RUN apt-get -y install gcc
 RUN apt-get -y install g++
 
 # 安装其他包
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==1.13.1
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple sentencepiece
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple blocksparse
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tqdm
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy
+RUN pip install torch==1.2.0
+RUN pip install sentencepiece
+RUN pip install tqdm
+RUN pip install numpy
+RUN pip install word2number
