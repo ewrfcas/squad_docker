@@ -17,9 +17,8 @@ RUN apt-get -y install gcc
 RUN apt-get -y install g++
 
 # 安装其他包
-RUN pip install tensorflow-gpu==1.13.1
 RUN pip install torch==1.2.0
 RUN pip install sentencepiece
-RUN pip install blocksparse
 RUN pip install tqdm
 RUN pip install numpy
+RUN pip install word2number
